@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A53254B9-2E38-408E-9ACA-B39C29F83691}</ProjectGuid>
+    <ProjectGuid>{C8F7FFE4-CAEB-4F4C-9F3B-B6B9B905FEE4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>PackerSample</RootNamespace>
+    <RootNamespace>Packer</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>Target</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -146,11 +145,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="values.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="shared.h" />
+    <ClCompile Include="Packer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
